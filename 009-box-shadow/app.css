@@ -7,10 +7,17 @@ img {
   max-width: 100%;
 }
 
+/* Your Code Goes Under This Line */
 .box {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   margin-bottom: 20px;
+  box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.1);
 }
 
-/* Your Code Goes Under This Line */
+.fun{
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+  box-shadow: -1px -1px 12px 2px rgba(255,0,255,1), 10px 10px rgba(255, 0, 0, 0.5);
+}

@@ -13,6 +13,7 @@ img {
 }
 
 div {
+  box-sizing: border-box;
   background: white;
   color: #222;
   padding: 20px;
