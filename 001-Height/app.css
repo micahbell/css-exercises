@@ -4,6 +4,24 @@ div {
   color: white;
 }
 
+div.short {
+  height: 100px;
+}
+
+.tall {
+  height: 200px;
+}
+
+.outside {
+  /*display: relative;*/
+  height: 100px;
+}
+
+.inner {
+  display: inherit;
+  height: 100%;
+}
+
 img {
   max-width: 100%;
 }
