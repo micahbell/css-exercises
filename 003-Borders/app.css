@@ -3,3 +3,20 @@ img {
 }
 
 /* Code Under This Line */
+div:nth-child(2) {
+  border: 10px solid red;
+}
+
+div:nth-child(3) {
+  border: 10px solid blue;
+}
+
+div:nth-child(4) {
+  border-left: 10px solid green;
+}
+div:nth-child(5) {
+  border-left: 5px solid blue;
+  border-right: 5px solid blue;
+  border-top: 5px solid red;
+  border-bottom: 5px solid red;
+}

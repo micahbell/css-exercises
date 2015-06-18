@@ -13,12 +13,21 @@ div.short {
 }
 
 .outside {
-  /*display: relative;*/
-  height: 100px;
+  height: 300px;
 }
 
 .inner {
+  height: inherit;
+}
+
+.body {
+  width: 100%;
+  height: 100%;
+}
+.giant {
+  position: absolute;
   display: inherit;
+  width: 100%;
   height: 100%;
 }
 

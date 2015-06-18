@@ -12,3 +12,10 @@ img {
 }
 
 /* Code Under This Line */
+div {
+  margin-bottom: 20px;
+}
+
+section {
+  margin: 0 auto;
+}
